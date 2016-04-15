@@ -4,10 +4,6 @@ Homework 5:
 Refactoring & Legacy Code
 ===
 
-**Part 1 (steps 0-2) Due Sunday, November 3rd, 11:59 PM**
-
-**Part 2 (step 3) Due Sunday, November 10th, 11:59 PM**
-
 You're strongly encouraged to do this assignment as a pair, but you don't have to.  If you do, both will receive the same grade.  We encourage you to try working with someone who might be on your course project team, to see if you work well together pairing.
 
 **Overview: Extending & Fixing Typo**
