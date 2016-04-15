@@ -13,6 +13,7 @@ Typo is a blogging engine written in Rails to allow people to set up a blog easi
 From your perspective, Typo is legacy code since you didn't write it yourself :-)  In this assignment you'll go through the steps of adapting the BDD+TDD cycle to enhance and fix a bug in a piece of legacy code.
 
 Preview of structure of assignment:
+
 Get the legacy software running, kick the tires (play around with Typo yourself), and make sure its existing test suite runs correctly, to establish a baseline.
 Create cucumber stories based on mockup that we will provide for a new Typo feature: article merging. These stories will serve as high-level integration/acceptance tests.
 Use stories to drive the process of identifying where in Typo things will have to be modified, which in turn will tell you where to create new model and controller specs (we will not require view specs, although we would encourage them) to support the functionality. These specs will serve as low-level unit tests for the code we are adding.
