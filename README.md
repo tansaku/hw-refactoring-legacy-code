@@ -14,13 +14,13 @@ From your perspective, Typo is legacy code since you didn't write it yourself :-
 
 Preview of structure of assignment:
 
-Get the legacy software running, kick the tires (play around with Typo yourself), and make sure its existing test suite runs correctly, to establish a baseline.
-Create cucumber stories based on mockup that we will provide for a new Typo feature: article merging. These stories will serve as high-level integration/acceptance tests.
-Use stories to drive the process of identifying where in Typo things will have to be modified, which in turn will tell you where to create new model and controller specs (we will not require view specs, although we would encourage them) to support the functionality. These specs will serve as low-level unit tests for the code we are adding.
-Drive creation of new feature code from step 1's scenarios plus rspec tests; will need to use fixtures and/or factories to create content for tests.
-Examine the bug in typo.
-Write cucumber stories to test the behavior of the bug.
-Write a bugfix that passes the cucumber stories you created in step 6.
+* Get the legacy software running, kick the tires (play around with Typo yourself), and make sure its existing test suite runs correctly, to establish a baseline.
+* Create cucumber stories based on mockup that we will provide for a new Typo feature: article merging. These stories will serve as high-level integration/acceptance tests.
+* Use stories to drive the process of identifying where in Typo things will have to be modified, which in turn will tell you where to create new model and controller specs (we will not require view specs, although we would encourage them) to support the functionality. These specs will serve as low-level unit tests for the code we are adding.
+* Drive creation of new feature code from step 1's scenarios plus rspec tests; will need to use fixtures and/or factories to create content for tests.
+* Examine the bug in typo.
+* Write cucumber stories to test the behavior of the bug.
+* Write a bugfix that passes the cucumber stories you created in step 6.
 
 In Part 1, you'll get familiar with Typo, create cucumber tests, and implement the particle merge feature (steps 1-4 above). In part 2, you’ll examine and fix a bug in Typo, writing tests to prevent future regressions along the way (steps 5-7 above).
 
